@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    background: #1B244A;
+    text-align: center;
+    color: white;
+}
+
+h4{
+    margin: 150px 0px 0px 0px;
+    max-width: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    color: #F94F6D;
+    background: #080001;
+    padding: 3rem;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Orbitron', sans-serif;
+    color: #9AABD8;
+    background: #1B244A; 
+}
+
+#new-game{
+    margin: 10px;
+    width: 200px;
+}

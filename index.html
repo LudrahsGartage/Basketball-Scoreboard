@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <h1 id="home-score">0</h1>
+                <div class="score-btns-div">
+                    <button onclick="singlePoint('Home')">+1</button>
+                    <button onclick="doublePoint('Home')">+2</button>
+                    <button onclick="triplePoint('Home')">+3</button>
+                </div>
+            </div>
+            <h4 id="Leader">LEADER</h4>
+            <div id="guest">
+                <h3>GUEST</h3>
+                <h1 id="guest-score">0</h1>
+                <div class="score-btns-div">
+                    <button onclick="singlePoint('guest')" >+1</button>
+                    <button onclick="doublePoint('guest')">+2</button>
+                    <button onclick="triplePoint('guest')">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="new-game" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
