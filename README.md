@@ -1,4 +1,6 @@
-# co3924af4b6b527677f13dfcd
+# Basketball Scoreboard
+
+A simple basketball scoreboard solo project with vanilla JS DOM manipulation. Able to track points, leading team, reset game.
 
 ## About Scrimba
 
